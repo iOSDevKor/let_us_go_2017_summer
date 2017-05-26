@@ -185,8 +185,8 @@
 										<script>
 											var container = document.getElementById('map');
 											var options = {
-												center: new daum.maps.LatLng(33.450701, 126.570667),
-												level: 3
+												center: new daum.maps.LatLng(37.40206, 127.10883),
+												level: 4
 											};
 
 											var map = new daum.maps.Map(container, options);
@@ -202,7 +202,7 @@
 											map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
 
 											// 마커가 표시될 위치입니다 
-											var markerPosition  = new daum.maps.LatLng(33.450701, 126.570667); 
+											var markerPosition  = new daum.maps.LatLng(37.40206, 127.10883); 
 
 											// 마커를 생성합니다
 											var marker = new daum.maps.Marker({
@@ -214,7 +214,7 @@
 
 
 											var iwContent = '<div style="padding:5px;">7층 KAKAO</div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-											    iwPosition = new daum.maps.LatLng(33.450701, 126.570667); //인포윈도우 표시 위치입니다
+											    iwPosition = new daum.maps.LatLng(37.40206, 127.10883); //인포윈도우 표시 위치입니다
 
 											// 인포윈도우를 생성합니다
 											var infowindow = new daum.maps.InfoWindow({
