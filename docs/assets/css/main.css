@@ -1842,6 +1842,39 @@
 				width: 100%;
 			}
 
+	.image-nonoverlayed {
+		border: 0;
+		position: relative;
+	}
+
+		.image-nonoverlayed:before {
+			content: '';
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		.image-nonoverlayed.fit {
+			display: block;
+		}
+
+			.image-nonoverlayed.fit img {
+				display: block;
+				width: 100%;
+			}
+
+		.image-nonoverlayed.featured {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image-nonoverlayed.featured img {
+				display: block;
+				width: 100%;
+			}
+
 /* Icon */
 
 	.icon {
